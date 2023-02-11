@@ -2,7 +2,7 @@
   "name": "actionbike",
   "version": "0.0.0",
   "description": "",
-  "main": "action-bike.js",
+  "main": "serv-es-app.js",
   "type": "module",
   "scripts": {
     "test": "vitest"
