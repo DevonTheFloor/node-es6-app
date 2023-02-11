@@ -10,4 +10,4 @@ Il s'agit donc de développer comme un front-end en important des bibliiothèque
 This is an Node.js application example with type=module for use web components on it.   
    
 ## Paragim   
-It's made for developpe like a front-end developper and use components librairies.
+It's made for develop like a front-end developer and use components librairies.
