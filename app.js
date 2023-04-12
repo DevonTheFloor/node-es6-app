@@ -1,5 +1,6 @@
 import express from 'express';
 import path from 'path';
+import siteMap from './components/site-map/navigation/site-map.js';
 
 const app = express();
 
@@ -23,12 +24,14 @@ app.use((req, res, next) => {
   }
   next();
 });
-app.use('/second/', (req, res, next) => {
+
+app.use('/', siteMap);
+/*app.use('/second/', (req, res, next) => {
   res.render('second', { title: 'Second' });
 });
 app.use('/', (req, res, next) => {
   res.render('index', { title: 'Acueil' });
-});
+});*/
 
 
 /*app.use('/file/components/',(req, res, next) => {
